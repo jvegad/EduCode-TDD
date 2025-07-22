@@ -27,7 +27,7 @@ A continuación se detallan los pasos para clonar, compilar y probar el proyecto
 1.  **Clonar el repositorio:**
     ```bash
     git clone https://github.com/jvegad/EduCode-TDD.git
-    cd mi-proyecto-crud-tdd
+    cd EduCode-TDD
     ```
 
 2.  **Compilar y ejecutar las pruebas:**
