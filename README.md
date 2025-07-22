@@ -95,17 +95,14 @@ Primero, creamos la clase `Curso.java` en `src/main/java/com/educode/` y la clas
 ```
 
 **Resultado de la ejecución:**
-
-* 
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project EduCode-TDD: Compilation failure: Compilation failure: 
+*[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project EduCode-TDD: Compilation failure: Compilation failure: 
 [ERROR] /C:/Users/josse/Desktop/JAVA/EduCode-TDD/src/test/java/com/educode/CursoTest.java:[19,17] cannot find symbol
 [ERROR]   symbol:   method agregarNota(double)
 [ERROR]   location: variable servicio of type com.educode.Curso
 [ERROR] /C:/Users/josse/Desktop/JAVA/EduCode-TDD/src/test/java/com/educode/CursoTest.java:[22,36] cannot find symbol
 [ERROR]   symbol:   method calcularPromedio()
 [ERROR]   location: variable servicio of type com.educode.Curso
-[ERROR] -> [Help 1]
-*
+[ERROR] -> [Help 1]*
 
 #### Ciclo 2: Green - Escribir código mínimo para pasar la prueba
 
@@ -124,14 +121,11 @@ public double calcularPromedio() {
 ```
 
 **Resultado de la ejecución:**
-
-*
-[INFO] Results:
+*[INFO] Results:
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 [INFO] Total time:  20.138 s
-[INFO] Finished at: 2025-07-22T15:24:58-03:00
-*
+[INFO] Finished at: 2025-07-22T15:24:58-03:00*
 
 #### Ciclo 3: Refactor - Mejorar el código
 
@@ -172,16 +166,13 @@ Primero, verifico que la clase `Curso.java` en `src/main/java/com/educode/` cont
 ```
 
 **Resultado de la ejecución:**
-
-* 
-[ERROR] COMPILATION ERROR : 
+*[ERROR] COMPILATION ERROR : 
 [ERROR] /C:/Users/josse/Desktop/JAVA/EduCode-TDD/src/test/java/com/educode/CursoTest.java:[32,35] cannot find symbol
   symbol:   method verificarCupos(com.educode.Curso)
   location: variable servicio of type com.educode.Curso
 [ERROR] /C:/Users/josse/Desktop/JAVA/EduCode-TDD/src/test/java/com/educode/CursoTest.java:[41,35] cannot find symbol
   symbol:   method verificarCupos(com.educode.Curso)
-  location: variable servicio of type com.educode.Curso
-*
+  location: variable servicio of type com.educode.Curso*
 
 #### Ciclo 2: Green - Escribir código mínimo para pasar la prueba
 
@@ -195,14 +186,11 @@ public boolean verificarCupos(Curso curso) {
 ```
 
 **Resultado de la ejecución:**
-
-*
-[INFO] Results:
+*[INFO] Results:
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 [INFO] Total time:  16.886 s
-[INFO] Finished at: 2025-07-22T16:04:26-03:00
-*
+[INFO] Finished at: 2025-07-22T16:04:26-03:00*
 
 #### Ciclo 3: Refactor - Mejorar el código
 
