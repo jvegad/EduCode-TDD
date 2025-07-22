@@ -66,7 +66,7 @@ En contraste, el **Test-Driven Development (TDD)** invierte este proceso. La reg
 
 ## 3. Ciclo Red-Green-Refactor en Acción
 
-A continuación, se implementarán las funcionalidades `calcularPromedio()` y `verificarCupos()` en una clase `CursoService` siguiendo estrictamente el ciclo TDD.
+A continuación, se implementarán las funcionalidades `calcularPromedio()` y `verificarCupos()` en una clase `Curso` siguiendo estrictamente el ciclo TDD.
 
 ### Organización y Ejecución en Visual Studio Code
 
@@ -75,8 +75,6 @@ El proyecto se configuró con Maven. La extensión **Extension Pack for Java** e
 *   Ejecutar una única clase de prueba.
 *   Ejecutar un único método de prueba.
 *   Visualizar los resultados directamente en el editor, con indicadores de éxito (verde) o fallo (rojo).
-
-![test-runner-vscode](https://code.visualstudio.com/assets/docs/java/java-testing/test-runner.png)
 
 ### Funcionalidad: `calcularPromedio()`
 
@@ -215,7 +213,9 @@ public boolean verificarCupos(Curso curso) {
     return curso.getEstudiantes().size() < curso.getCupoMaximo();
 }
 ```
+
 *En este caso, no se encontraron bugs ni complejidad excesiva, por lo que la refactorización no era estrictamente necesaria. Sin embargo, se optó por una versión más concisa eliminando las variables locales intermedias. Dado que la lógica es una simple comparación, la legibilidad no se ve comprometida y el código queda más compacto. Este cambio se realizó con la confianza de que la suite de pruebas existente validaría que el comportamiento no fue alterado.*
+
 ---
 
 ## 4. Código Fuente
