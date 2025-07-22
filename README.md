@@ -95,6 +95,7 @@ Primero, creamos la clase `Curso.java` en `src/main/java/com/educode/` y la clas
 ```
 
 **Resultado de la ejecución:**
+
 * 
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project EduCode-TDD: Compilation failure: Compilation failure: 
 [ERROR] /C:/Users/josse/Desktop/JAVA/EduCode-TDD/src/test/java/com/educode/CursoTest.java:[19,17] cannot find symbol
@@ -123,15 +124,13 @@ public double calcularPromedio() {
 ```
 
 **Resultado de la ejecución:**
+
 *
 [INFO] Results:
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-[INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
 [INFO] Total time:  20.138 s
 [INFO] Finished at: 2025-07-22T15:24:58-03:00
-[INFO] ------------------------------------------------------------------------
 *
 
 #### Ciclo 3: Refactor - Mejorar el código
@@ -173,6 +172,7 @@ Primero, verifico que la clase `Curso.java` en `src/main/java/com/educode/` cont
 ```
 
 **Resultado de la ejecución:**
+
 * 
 [ERROR] COMPILATION ERROR : 
 [ERROR] /C:/Users/josse/Desktop/JAVA/EduCode-TDD/src/test/java/com/educode/CursoTest.java:[32,35] cannot find symbol
@@ -195,12 +195,11 @@ public boolean verificarCupos(Curso curso) {
 ```
 
 **Resultado de la ejecución:**
+
 *
 [INFO] Results:
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
-[INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
 [INFO] Total time:  16.886 s
 [INFO] Finished at: 2025-07-22T16:04:26-03:00
 *
@@ -328,4 +327,4 @@ public class CursoTest {
 *El principal desafío al adoptar TDD es el cambio de mentalidad. Requiere una disciplina consciente para resistir el impulso de escribir la solución directamente y, en su lugar, comenzar con una prueba que falla. Este proceso puede sentirse más lento al principio, ya que el enfoque se desplaza de "escribir código" a "satisfacer un requisito". Superar esto es el mayor obstáculo para un equipo acostumbrado a flujos de trabajo tradicionales.*
 
 ### Lecciones Aprendidas
-*La lección más importante es que TDD es tanto una herramienta de diseño como de testing. Fuerza la creación de código modular y desacoplado que es inherentemente testeable. Además, se comprobó que la integración de herramientas modernas es clave para la eficiencia. El soporte nativo de JUnit en Visual Studio Code, junto a la gestión de dependencias de Maven, permite ejecutar el ciclo Red-Green-Refactor de manera fluida y rápida.
+*La lección más importante es que TDD es tanto una herramienta de diseño como de testing. Fuerza la creación de código modular y desacoplado que es inherentemente testeable. Además, se comprobó que la integración de herramientas modernas es clave para la eficiencia. El soporte nativo de JUnit en Visual Studio Code, junto a la gestión de dependencias de Maven, permite ejecutar el ciclo Red-Green-Refactor de manera fluida y rápida.*
